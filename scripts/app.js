@@ -5,7 +5,6 @@ window.addEventListener('DOMContentLoaded', (e) => {
   let carouselIndex = 0
 
   let cycleImages = () => {
-    // console.log("1 second");
     let currentImage = document.querySelector(".image")
     currentImage.style.backgroundImage = `url("./images/hero-image-${carouselIndex}.jpg")`
     carouselIndex ++
