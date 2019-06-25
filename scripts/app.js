@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (e) => {
     console.log('DOM fully loaded and parsed');
 
-  const imageContainter = document.querySelector(".hero-image")
+  // const imageContainter = document.querySelector(".hero-image")
   let carouselIndex = 0
 
   let cycleImages = () => {
